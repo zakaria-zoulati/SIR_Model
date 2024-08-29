@@ -45,9 +45,9 @@ if __name__ ==  "__main__" :
     solver = ForwardEuler(sir) 
     solver.set_initial_conditions(sir.initial_conditions) 
 
-    time_steps  = np.linspace( 0 , 60 , 1001 ) 
+    time_steps  = np.linspace( 0 , 60 , 10001 ) 
     u , t = solver.solve( time_steps )
-
+    print(u)
     plt.plot( t , u[ : ,0] , label = "Succeptible" ) 
     plt.plot( t , u[ : ,1] , label = "Infected" ) 
     plt.plot( t , u[ : ,2] , label = "Recovered" ) 

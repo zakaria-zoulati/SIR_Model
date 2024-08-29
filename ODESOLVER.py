@@ -49,12 +49,6 @@ class ForwardEuler(ODESolver) :
         dt = t[i+1] - t[i] 
         return u[i,:] + dt*f( u[i , :]  , t[i] )
     
-
-
-
-
-
-
     
 
 
