@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 import random 
 from scipy.integrate import odeint
 
-
 S = [100] 
 I = [1] 
 R = [0] 
@@ -53,4 +52,3 @@ ax3.set_ylabel("R")
 ax3.set_xlabel("Time")
 
 plt.show() 
-
