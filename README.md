@@ -93,7 +93,7 @@ SIR_Model/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/SIR_Model.git
+   git clone https://github.com/zakaria-zoulati/SIR_Model.git
    cd SIR_Model
    ```
 
@@ -133,16 +133,16 @@ This performs a single stochastic simulation using the Gillespie algorithm and g
 ## Results and Visualizations
 
 ### Deterministic Model Results
-![Deterministic SIR Model](images/deterministic.png)
+![Deterministic SIR Model](images/deterministic.png)  
 *Deterministic SIR model showing smooth epidemic curves with susceptible (blue), infected (red), and recovered (green) populations using Forward Euler method.*
 
 The deterministic model produces smooth curves showing the classic epidemic progression. The Forward Euler method provides numerical solutions to the SIR system with high temporal resolution.
 
 ### Stochastic Model Results
-![Stochastic SIR Model 1](images/Stochastic1.png)
+![Stochastic SIR Model 1](images/Stochastic1.png)  
 *Stochastic SIR model simulation showing step-like trajectories for S, I, and R populations using the Gillespie algorithm.*
 
-![Stochastic SIR Model 2](images/Stochastic2.png)
+![Stochastic SIR Model 2](images/Stochastic2.png)  
 *Additional stochastic simulation results demonstrating the variability in epidemic trajectories.*
 
 The stochastic model generates step-like trajectories reflecting discrete events (infections and recoveries). Each simulation run produces different results due to the inherent randomness, showing the natural variability in epidemic progression.
